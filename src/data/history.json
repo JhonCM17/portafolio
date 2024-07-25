@@ -1,0 +1,29 @@
+[
+  {
+    "role": " Análisis de Datos de Google",
+    "organisation": "Google",
+    "startDate": "Mayo, 2024",
+    "endDate": "Vigente",
+    "experiences": ["Base de datos", "SQL", "Google Sheets"],
+    "imageSrc": "history/google.png"
+  },
+  {
+    "role": "Microsoft Power BI Data Analyst",
+    "organisation": "Microsoft",
+    "startDate": "Junio, 2024",
+    "endDate": "Vigente",
+    "experiences": ["Power bi Dashboard", "Excel"],
+    "imageSrc": "history/microsoft.png"
+  },
+  {
+    "role": "Análisis de datos Con Excel",
+    "organisation": "Universidad Nacional de Ingeniería",
+    "startDate": "Julio, 2024",
+    "endDate": "Vigente",
+    "experiences": [
+      "Hojas de cálculo",
+      "Inteligencia de Negocios"
+    ],
+    "imageSrc": "history/UNI.png"
+  }
+]

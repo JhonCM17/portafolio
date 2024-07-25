@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Correos Masivos para Publicidad 🚀",
+    "imageSrc": "projects/1.png",
+    "description": "Envia publicidad a tu publico objetivo y mejora tu negocio.",
+    "skills": ["Python", "Excel", "HTML"],
+    "demo": "https://www.linkedin.com/posts/jhoncm17_marketingdigital-emailmarketing-automatizaciaejn-activity-7214555772607676416-K_c0?utm_source=share&utm_medium=member_desktop",
+    "source": "https://github.com/JhonCM17/Correos_Masivos"
+  },
+  {
+    "title": "Bot de Automatización de WhatsApp con Python 🐍",
+    "imageSrc": "projects/2.png",
+    "description": "Envia mensajes automaticos a tus clientes y mejora tu productividad.",
+    "skills": ["Whatsapp", "Python", "PyAutoGUI"],
+    "demo": "https://www.linkedin.com/posts/jhoncm17_python-automatizaciaejn-whatsapp-activity-7212263915097862144-lPIR?utm_source=share&utm_medium=member_desktop",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Los videojuegos más vendidos de la historia 🎮",
+    "imageSrc": "projects/3.png",
+    "description": "Visualización de datos del Top videojuegos mas vendidos de la historia.",
+    "skills": ["Python", "Pandas", "WordClouds"],
+    "demo": "https://www.linkedin.com/posts/jhoncm17_dataanalysis-datavisualization-webscraping-activity-7200603163408629760-rE4x?utm_source=share&utm_medium=member_desktop",
+    "source": "https://github.com/JhonCM17/Videojuegos_mas_vendidos_Python"
+  }
+]

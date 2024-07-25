@@ -1,0 +1,34 @@
+[
+  {
+    "title": "PYTHON",
+    "imageSrc": "skills/python.png"
+  },
+  {
+    "title": "EXCEL",
+    "imageSrc": "skills/excel.png"
+  },
+  {
+    "title": "SQL",
+    "imageSrc": "skills/sql.png"
+  },
+  {
+    "title": "POWER BI",
+    "imageSrc": "skills/powerbi.png"
+  },
+  {
+    "title": "HTML",
+    "imageSrc": "skills/html.png"
+  },
+  {
+    "title": "WORDPRESS",
+    "imageSrc": "skills/wordpress.png"
+  },
+  {
+    "title": "REACT",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "title": "AWS",
+    "imageSrc": "skills/aws.png"
+  }
+]
