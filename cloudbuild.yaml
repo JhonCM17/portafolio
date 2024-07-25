@@ -1,41 +1,6 @@
 steps:
-  - name: 'node:18' # Usa una imagen de Node.js adecuada
-    id: 'Install Dependencies'
-    entrypoint: 'bash'
-    args:
-      - '-c'
-      - |
-        npm install
-        chmod +x ./node_modules/.bin/vite # Asegúrate de que el binario de vite sea ejecutable
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['build', '-t', 'gcr.io/light-lambda-430421-v8/portafolio-web', '.']
 
-  - name: 'node:18'
-    id: 'Build'
-    entrypoint: 'bash'
-    args:
-      - '-c'
-      - 'npm run build'
-
-  - name: 'gcr.io/cloud-builders/gsutil'
-    id: 'Upload Build Artifacts'
-    args:
-      - '-m'
-      - 'cp'
-      - '-r'
-      - 'dist/*'
-      - 'gs://your-bucket-name/'
-
-  - name: 'gcr.io/cloud-builders/gcloud'
-    id: 'Deploy to Cloud Run'
-    args:
-      - 'run'
-      - 'deploy'
-      - 'portafolio-service'
-      - '--image'
-      - 'gcr.io/${PROJECT_ID}/portafolio:dev'
-      - '--platform'
-      - 'managed'
-      - '--region'
-      - 'us-east1'
-      - '--allow-unauthenticated'
-
-timeout: '1200s'
+images:
+  - 'gcr.io/light-lambda-430421-v8/portafolio-web'
